@@ -1,15 +1,25 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./layout/Layout";
+import Flights from "./pages/Flights/Flights";
+import Trains from "./pages/Trains/Trains";
+import Hotels from "./pages/Hotels/Hotels";
+import Buses from "./pages/Buses/Buses";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>Ixigo Clone</div>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Flights />} />
+          <Route path="flights" element={<Flights />} />
+          <Route path="trains" element={<Trains />} />
+          <Route path="hotels" element={<Hotels />} />
+          <Route path="buses" element={<Buses />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
