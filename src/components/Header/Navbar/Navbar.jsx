@@ -9,7 +9,7 @@ import {
 
 export default function Navbar() {
   return (
-    <nav className="nav-links bg-white relative flex h-full items-center gap-6 font-semibold text-slate-500 mx-5 max-lg:gap-0 max-lg:fixed max-lg:bottom-0 max-lg:h-16 max-lg:w-full max-lg:left-0 max-lg:mx-0 max-lg:px-5  max-lg:justify-between max-lg:shadowup z-10">
+    <nav className="nav-links relative flex h-full items-center font-semibold text-slate-500 mx-5 max-lg:gap-0 max-lg:fixed max-lg:bottom-0 max-lg:h-16 max-lg:w-full max-lg:left-0 max-lg:mx-0 max-lg:px-4  max-lg:justify-between max-lg:shadowup z-10">
       <NavLink to={"/flights"} className="nav-item ">
         <img src={FlightLogo} alt="flight-logo" className="nav-service-logo" />
         <span>Flights</span>

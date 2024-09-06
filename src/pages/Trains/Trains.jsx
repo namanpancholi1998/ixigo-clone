@@ -1,9 +1,10 @@
 import React from "react";
+import HomePage from "../Flights/HomePage/HomePage";
 
 export default function Trains() {
   return (
     <div>
-      <h1>This is a Trains Component</h1>
+      <HomePage />
     </div>
   );
 }

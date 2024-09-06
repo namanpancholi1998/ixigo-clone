@@ -1,9 +1,10 @@
 import React from "react";
+import HomePage from "../Flights/HomePage/HomePage";
 
 export default function Buses() {
   return (
     <div>
-      <p>This is a Buses Component</p>
+      <HomePage />
     </div>
   );
 }
