@@ -1,5 +1,10 @@
 import React from "react";
+import HomePage from "../Flights/HomePage/HomePage";
 
 export default function Hotels() {
-  return <div>This is a Hotels Component</div>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }

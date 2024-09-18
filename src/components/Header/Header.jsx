@@ -7,7 +7,7 @@ import Profile from "./UserProfile/Profile.jsx";
 
 export default function Header() {
   return (
-    <header className="w-full bg-white h-20 fixed top-0 shadow">
+    <header className="w-full bg-white h-20 fixed top-0 shadow z-50">
       <div className="w-full h-full flex justify-between items-center max-w-[1280px] mx-auto px-[10px] max-sm:px-[20px]">
         <div className="h-full flex items-center">
           <NavLink to={"/"} className="mx-4 w-[115px] h-[40px] shrink-0">
