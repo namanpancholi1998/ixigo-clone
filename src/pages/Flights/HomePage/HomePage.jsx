@@ -14,15 +14,3 @@ export default function HomePage() {
     </div>
   );
 }
-
-// <div className="w-full relative h-[300px] md:h-[600px]  flex items-center bg-center bg-cover ">
-// <div className="absolute w-full"></div>
-// <div className="opacity-layer"></div>
-
-// <ContentContainer>
-//   <div className="homePage flex flex-col  justify-center relative max-w-screen-xl mx-auto">
-//     <Navbar />
-//     <SearchBar />
-//   </div>
-// </ContentContainer>
-// </div>

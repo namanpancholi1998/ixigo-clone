@@ -4,7 +4,7 @@ import dayjs from "dayjs";
 const initialState = {
   source_location: "",
   destination_location: "",
-  one_way: true,
+  oneway: true,
   travel_details: {
     numbers: {
       adult: 1,
